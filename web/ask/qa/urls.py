@@ -1,3 +1,4 @@
+from django.conf.urls import url, include
 urlpatterns = patterns('qa.views',                                              
    url(r'^$', 'test'),                                                              
    url(r'^login/.*$', 'test', name='login'),                                    
