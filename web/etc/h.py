@@ -21,7 +21,7 @@ CONFIG = {
         '--workers=4',
         '--timeout=60',
         #'wsgi',
-        'ask.wsgi:application',
+        'ask.wsgi',
         #'hello:app',
     ),
 }
